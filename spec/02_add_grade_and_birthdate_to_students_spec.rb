@@ -1,5 +1,5 @@
 require_relative '../db/migrate/01_create_students'
-require_relative '../db/migrate/02_add_grade_and_birthdate_to_students'
+require_relative '../db/migrate/20220524075139_add_grade_and_birthdate_to_students'
 
 describe AddGradeAndBirthdateToStudents do
   before do
